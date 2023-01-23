@@ -27,7 +27,7 @@ def new_quiz():
 
         correct_scores += quiz_answers(quiz_questions.get(count), guess)
 
-        question_num += 1
+        question_number += 1
 
     display_score(correct_scores, guesses)
 
